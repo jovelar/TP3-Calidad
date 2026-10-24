@@ -1,0 +1,9 @@
+[tool.ruff.lint]
+select = ["E", "F", "C901"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 5
+
+[tool.coverage.run]
+branch = true
+omit = ["test_*.py"]

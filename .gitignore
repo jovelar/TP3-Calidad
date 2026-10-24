@@ -1,0 +1,6 @@
+__pycache__/
+.ruff_cache/
+.scannerwork/
+.coverage
+coverage.xml
+*.pdf
